@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <!-- se crea un formulario con esta etiqueta -->
+    ><form action="">
+        <h3>Introduce tus nombres y apellidos</h3>
+        <!-- Con input se crea un campo de texto para ingresar información -->
+        <input type="text" name="Nombre" value="">
+        <input type="text" name="Apellidos" value="">
+        <!-- al colocar la plabrar placeholder en lugar de value se puede poner un texto por defecto en el campo -->
+        <input type="number" name="Codigo" placeholder="Codigo">
+        <input type="Submit" name="enviar" value="Enviar">
+    </form>
+<!-- al oprimir el boton se produce la opción ose ir a la página llamada login.html -->
+    <form action="login.html">
+        <h3>Introduce tus Email y Contraseña</h3>
+        <input type="email" name="Email" placeholder="email" required>
+        <input type="password" name="Contraseña" placeholder="password" required>
+        <!-- con required se vuelve obligatorio llenar el campo -->
+        <input type="Submit" name="enviar" value="Enviar">
+    </form>
+
+</body>
+</html>
