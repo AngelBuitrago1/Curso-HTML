@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de un usuario nuevo</title>
+</head>
+<body>
+        <h1>Registro de usuario</h1>
+        <form action="resultado.html" method="get">
+            Nombre <input type="text" name="nombre" placeholder="Nombre" required>
+            Apellidos <input type="text" name="apellidos" placeholder="Apellidos" required>
+            <br><br>
+            Correo electrónico <input type="email" name="email" placeholder="Correo electrónico" required>
+            Contraseña <input type="password" name="contraseña" placeholder="Contraseña" required>
+            <p>¿Eres mayor de edad?</p>
+            Si <input type="radio" name="respuesta" value="Si">
+            No <input type="radio" name="respuesta" value="No">
+            <p>Selecciona el tipo de suscripción</p>
+            <select name="tipo" id="">
+                <option value="Diaria">Diaria</option>
+                <option value="Mensual">Mensual</option>
+                <option value="Anual">Anual</option>
+            </select>
+            <p>Selecciona el color de fondo</p>
+            <!-- para agregar un cudro de selcción de color -->
+            <input type="color" name="color" value="#FF0000">
+            <br><br>
+            <input type="submit" name="enviar" value="Enviar">
+        </form>
+</body>
+</html>
