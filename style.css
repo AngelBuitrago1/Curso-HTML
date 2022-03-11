@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+td{
+    background-color:gray;
+    width: 80px;
+    height: 80px;
+}
+table{
+    margin: auto;
+}
+.c11{
+    background-color: green;
+}
+.c22{
+    background-color: green;
+}
+.c33{
+    background-color: green;
+}
+.c13{
+    background-color: blue;
+}
+.c31{
+    background-color: blue;
+}
