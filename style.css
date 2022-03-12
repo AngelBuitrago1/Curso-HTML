@@ -1,26 +1,26 @@
-h1{
+body{
     text-align: center;
+    border: 40px solid rgb(22, 136, 165);
+    font-family: 'Smooch Sans', sans-serif;
 }
-td{
-    background-color:gray;
+p{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+input{
+    font-size: 1.2em;
+}
+label{
+    font-size: 1.2em;
+    margin: 30px;
+}
+#boton{
+    background-color: rgb(51, 192, 51);
+    color: white;
+    margin: 15px;
+    border: 3px solid lightgreen;
+    border-radius: 15px;
+    height: 50px;
     width: 80px;
-    height: 80px;
-}
-table{
-    margin: auto;
-}
-.c11{
-    background-color: green;
-}
-.c22{
-    background-color: green;
-}
-.c33{
-    background-color: green;
-}
-.c13{
-    background-color: blue;
-}
-.c31{
-    background-color: blue;
+    font-size: 1.2em;
 }
